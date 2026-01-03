@@ -1,0 +1,12 @@
+[package]
+name = "volatilum-sdk"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Read-only, deterministic interface to Volatilum liquidity infrastructure (Solana)."
+
+[lib]
+name = "volatilum_sdk"
+path = "src/lib.rs"
+
+[dependencies]

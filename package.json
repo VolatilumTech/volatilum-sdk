@@ -1,0 +1,11 @@
+{
+  "name": "volatilum-sdk",
+  "private": true,
+  "workspaces": [
+    "packages/typescript"
+  ],
+  "scripts": {
+    "build": "npm run -w @volatilum/sdk-typescript build",
+    "test": "npm run -w @volatilum/sdk-typescript test"
+  }
+}
